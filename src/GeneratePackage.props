@@ -10,6 +10,7 @@
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<PackageOutputPath>$(MSBuildProjectDirectory)\..\..\pkg</PackageOutputPath>
+		<PackageOutputPath Condition=" Exists('$(MSBuildProjectDirectory)\..\..\..\..\.gitignore') ">$(MSBuildProjectDirectory)\..\..\..\..\pkg</PackageOutputPath>
 		<!-- Optional: Embed source files that are not tracked by the source control manager in the PDB -->
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<!-- Optional: Build symbol package (.snupkg) to distribute the PDB containing Source Link -->
