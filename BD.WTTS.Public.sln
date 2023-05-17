@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BD.WTTS.Primitives.Resources", "src\BD.WTTS.Primitives.Resources\BD.WTTS.Primitives.Resources.csproj", "{F59948B7-510A-42F6-BC98-7983893053A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BD.WTTS.MicroServices.Primitives.Resources", "src\BD.WTTS.MicroServices.Primitives.Resources\BD.WTTS.MicroServices.Primitives.Resources.csproj", "{985EAFB5-9526-4D16-9D90-4585E56EBDD3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BD.WTTS.MicroServices.Resources", "src\BD.WTTS.MicroServices.Resources\BD.WTTS.MicroServices.Resources.csproj", "{D9F64129-A6D1-440C-B5ED-F025EBE59A63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0.Root", "0.Root", "{E95101E9-2A60-418B-A124-5FC1771CF0C8}"
+	ProjectSection(SolutionItems) = preProject
+		src\.editorconfig = src\.editorconfig
+		.gitignore = .gitignore
+		src\Directory.Build.props = src\Directory.Build.props
+		ref\DirectoryPackages\Directory.Packages.props = ref\DirectoryPackages\Directory.Packages.props
+		src\GeneratePackage.props = src\GeneratePackage.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F59948B7-510A-42F6-BC98-7983893053A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F59948B7-510A-42F6-BC98-7983893053A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F59948B7-510A-42F6-BC98-7983893053A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F59948B7-510A-42F6-BC98-7983893053A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{985EAFB5-9526-4D16-9D90-4585E56EBDD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{985EAFB5-9526-4D16-9D90-4585E56EBDD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{985EAFB5-9526-4D16-9D90-4585E56EBDD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{985EAFB5-9526-4D16-9D90-4585E56EBDD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F64129-A6D1-440C-B5ED-F025EBE59A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F64129-A6D1-440C-B5ED-F025EBE59A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F64129-A6D1-440C-B5ED-F025EBE59A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F64129-A6D1-440C-B5ED-F025EBE59A63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0DACAE0-CB82-43E6-A80B-01AA9807DEB7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<RootNamespace>BD.WTTS</RootNamespace>
+		<DefineConstants>_RES_;$(DefineConstants)</DefineConstants>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Update="Strings.Designer.cs">
+			<DependentUpon>Strings.resx</DependentUpon>
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="Strings.resx">
+			<LastGenOutput>Strings.Designer.cs</LastGenOutput>
+			<Generator>PublicResXFileCodeGenerator</Generator>
+			<CustomToolNamespace>BD.WTTS.R</CustomToolNamespace>
+		</EmbeddedResource>
+	</ItemGroup>
+
+	<Import Project="..\GeneratePackage.props" />
+
+</Project>
