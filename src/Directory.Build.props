@@ -1,5 +1,6 @@
 <Project>
-	<PropertyGroup>
+	<Import Condition=" Exists('$(MSBuildProjectDirectory)\..\..\..\..\.gitignore') " Project="$(MSBuildProjectDirectory)\..\..\..\..\src\Directory.Build.props" />
+	<PropertyGroup Condition=" !Exists('$(MSBuildProjectDirectory)\..\..\..\..\.gitignore') ">
 		<NoWarn>$(NoWarn);NU1507;1591;SA1612;IL2026;IL2091</NoWarn>
 		<LangVersion>latest</LangVersion>
 		<Nullable>enable</Nullable>
