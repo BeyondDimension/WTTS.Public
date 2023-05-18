@@ -118,102 +118,102 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bind" xml:space="preserve">
-    <value>매다</value>
+    <value>绑定</value>
   </data>
   <data name="BindFail_OtherAccountBind" xml:space="preserve">
-    <value>바인딩에 실패했으며 이 계정은 다른 타사 계정에 바인딩되었습니다</value>
+    <value>绑定失败，此账号已绑定其他第三方账号</value>
   </data>
   <data name="BrowserIsSupported1" xml:space="preserve">
-    <value>죄송합니다. 오래된 브라우저를 사용하고 있습니다. 브라우저를 업그레이드하거나 사용하는 것이 좋습니다.</value>
+    <value>很抱歉，您正在使用一个过时的浏览器。建议升级您的浏览器或使用</value>
   </data>
   <data name="BrowserIsSupported2" xml:space="preserve">
-    <value>그리고 당신의 경험을 향상시키기 위해 다른 현대적인 브라우저.</value>
+    <value>等其他现代浏览器，以提高您的体验。</value>
   </data>
   <data name="ClaimTypes_NameIdentifier_IsNull__" xml:space="preserve">
-    <value>NameIdentifier, 값: {0}, 채널: {1}, 사이트 관리자에게 문의를 읽지 못했습니다.</value>
+    <value>读取 NameIdentifier 失败，值：{0}，渠道：{1}，请联系网站管理员。</value>
   </data>
   <data name="ClickHereTryAgain" xml:space="preserve">
-    <value>여기를 클릭하여 다시 시도하십시오.</value>
+    <value>点击此处重试</value>
   </data>
   <data name="CopyButton" xml:space="preserve">
-    <value>복사하려면 여기를 클릭하십시오.</value>
+    <value>点此复制</value>
   </data>
   <data name="CopyNoSupport" xml:space="preserve">
-    <value>이 브라우저는 클립보드로의 간편 복사를 지원하지 않습니다.</value>
+    <value>该浏览器不支持点击复制到剪贴板</value>
   </data>
   <data name="CopySuccess" xml:space="preserve">
-    <value>클립보드에 성공적으로 복사되었습니다.</value>
+    <value>成功复制到剪贴板</value>
   </data>
   <data name="ErrorFromExternalProvider_" xml:space="preserve">
-    <value>{0} 타사 로그인 공급자의 오류는 사이트 관리자에게 문의하십시오.</value>
+    <value>来自第三方登录提供程序的错误，{0}，请联系网站管理员。</value>
   </data>
   <data name="ErrorFromUnknownAuthType_" xml:space="preserve">
-    <value>알 수 없는 타사 로그인 공급자({0})는 사이트 관리자에게 문의하십시오.</value>
+    <value>未知的第三方登录提供程序，{0}，请联系网站管理员。</value>
   </data>
   <data name="ErrorFromUnknownChannel_" xml:space="preserve">
-    <value>알 수없는 타사 로그인 채널 {0}는 웹 마스터에게 문의하십시오.</value>
+    <value>未知的第三方登录渠道，{0}，请联系网站管理员。</value>
   </data>
   <data name="ErrorLoadingExternalLoginInfo" xml:space="preserve">
-    <value>타사 로그인 정보를로드하는 동안 오류가 발생하여 웹 마스터에게 문의하십시오.</value>
+    <value>加载第三方登录信息时出错，请联系网站管理员。</value>
   </data>
   <data name="IsBindFalseUserIsNotNull" xml:space="preserve">
-    <value>익스프레스 로그인은 승인되지 않은 경우에만 사용할 수 있으므로 웹 마스터에게 문의하십시오.</value>
+    <value>快速登录仅可在未授权时使用，请联系网站管理员。</value>
   </data>
   <data name="IsBindTrueUserIsNull" xml:space="preserve">
-    <value>현재 로그인한 사용자를 얻기 위해 계정을 바인딩하지 못한 경우 웹마스터에게 문의하십시오.</value>
+    <value>账号绑定获取当前登录用户失败，请联系网站管理员。</value>
   </data>
   <data name="Login2" xml:space="preserve">
-    <value>로그인</value>
+    <value>登录</value>
   </data>
   <data name="LoginAndRegister" xml:space="preserve">
-    <value>로그인 / 등록</value>
+    <value>登录 / 注册</value>
   </data>
   <data name="LoginSuccessTip1" xml:space="preserve">
-    <value>{0} {1} 완료되면 이 창을 닫고 Watt Toolkit로 돌아갈 수 있습니다.</value>
+    <value>{0} {1}已完成，您可以关闭此窗口并返回至 Watt Toolkit。</value>
   </data>
   <data name="LoginSuccessTip2" xml:space="preserve">
-    <value>이 브라우저 창/탭은 10초 이내에 자동으로 닫히려고 시도하거나 수동으로 닫을 수 있습니다.</value>
+    <value>此浏览器窗口/标签页将会在 10 秒内尝试自动关闭，您也可以手动关闭。</value>
   </data>
   <data name="LongTimeNoJump" xml:space="preserve">
-    <value>오랫동안 뛰어 오르지 않았습니까?</value>
+    <value>长时间未跳转？</value>
   </data>
   <data name="ManualCopyTip" xml:space="preserve">
-    <value>커넥터에 오류가 있으므로 수동으로 다음을 프로그램에 복사하고 수동 로그인을 클릭하십시오.</value>
+    <value>连接程序出错,请手动复制以下内容到程序点击手动登录。</value>
   </data>
   <data name="meta_description" xml:space="preserve">
-    <value>&quot;Watt Toolkit&quot;은 다양한 플랫폼의 소스를 제공하는 다기능 Steam 도구 상자입니다.</value>
+    <value>「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。</value>
   </data>
   <data name="NewUserNickName_" xml:space="preserve">
-    <value>새 사용자 {0}</value>
+    <value>新用户{0}</value>
   </data>
   <data name="noscript" xml:space="preserve">
-    <value>이 사이트를 탐색하려면 JavaScript를 켜야 합니다.</value>
+    <value>需要开启 JavaScript 才能浏览本站点。</value>
   </data>
   <data name="PleaseCheckSteamCommunity" xml:space="preserve">
-    <value>Steam 커뮤니티에 제대로 접속할 수 있는지 확인하시기 바랍니다.</value>
+    <value>请检查是否能正常访问 Steam 社区。</value>
   </data>
   <data name="PleaseWait" xml:space="preserve">
-    <value>기다리세요...</value>
+    <value>请稍后…</value>
   </data>
   <data name="ReadFailBySteamAccountId64_" xml:space="preserve">
-    <value>SteamAccountId64, 값을 읽지 못했습니다 : {0}, 웹 마스터에게 문의하십시오.</value>
+    <value>读取 SteamAccountId64 失败，值：{0}，请联系网站管理员。</value>
   </data>
   <data name="ReadFailByUnionId_" xml:space="preserve">
-    <value>UnionId, 값을 읽지 못했습니다: {0} 사이트 관리자에게 문의하십시오.</value>
+    <value>读取 UnionId 失败，值：{0}，请联系网站管理员。</value>
   </data>
   <data name="SteamLoginException" xml:space="preserve">
-    <value>현재 스팀 로그인 요청이 너무 많으므로 페이지를 새로 고치고 다시 시도하거나 나중에 다시 시도하십시오.</value>
+    <value>目前 Steam 登录的请求过多请刷新页面重试或稍后再试。</value>
   </data>
   <data name="Title_Error" xml:space="preserve">
-    <value>실수!</value>
+    <value>错误!</value>
   </data>
   <data name="Title_Success_" xml:space="preserve">
-    <value>{0} 성공!</value>
+    <value>{0}成功!</value>
   </data>
   <data name="WebSocketLostTip" xml:space="preserve">
-    <value>프로그램에 대한 연결이 끊어지면 다시 시도를 클릭하거나 프로그램 내에서 빠른 로그인을 다시 클릭하십시오.</value>
+    <value>与程序的连接丢失，点击重试或重新在程序内点击快速登录。</value>
   </data>
   <data name="WebSocketPortIsNotUInt16" xml:space="preserve">
-    <value>포트 번호는 UInt16 형식이어야 하며 사이트 관리자에게 문의하십시오.</value>
+    <value>端口号必须为 UInt16 类型，请联系网站管理员。</value>
   </data>
 </root>
