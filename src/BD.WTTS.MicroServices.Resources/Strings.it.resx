@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -118,135 +118,102 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Bind" xml:space="preserve">
-    <value>guinzaglio</value>
-    <comment>Comment=;Author=Zhengye</comment>
-  </data>
-  <data name="BrowserIsSupported1" xml:space="preserve">
-    <value>Spiacenti, stai utilizzando un browser obsoleto. Si consiglia di aggiornare il browser o utilizzarlo</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="BrowserIsSupported2" xml:space="preserve">
-    <value>e altri browser moderni per migliorare la tua esperienza.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ClickHereTryAgain" xml:space="preserve">
-    <value>Clicca qui per riprovare</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ErrorFromExternalProvider_" xml:space="preserve">
-    <value>Errori provenienti da provider di accesso di terze parti, {0}, contattare l&apos;amministratore del sito.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ErrorFromUnknownAuthType_" xml:space="preserve">
-    <value>Provider di accesso di terze parti sconosciuto, {0}, contattare l&apos;amministratore del sito.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ErrorFromUnknownChannel_" xml:space="preserve">
-    <value>Canale di accesso di terze parti sconosciuto, {0}, contatta il webmaster.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ErrorLoadingExternalLoginInfo" xml:space="preserve">
-    <value>Si è verificato un errore durante il caricamento delle informazioni di accesso di terze parti, contatta il tuo webmaster.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="IsBindFalseUserIsNotNull" xml:space="preserve">
-    <value>L&apos;accesso rapido è disponibile solo se non autorizzato, contatta il tuo webmaster.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="IsBindTrueUserIsNull" xml:space="preserve">
-    <value>Se non è stato possibile associare l&apos;account per ottenere l&apos;utente attualmente connesso, contattare il webmaster.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="Login2" xml:space="preserve">
-    <value>accesso</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="LoginAndRegister" xml:space="preserve">
-    <value>Accesso / Registrazione</value>
-    <comment>Comment=;Author=Zhengye</comment>
-  </data>
-  <data name="LoginSuccessTip1" xml:space="preserve">
-    <value>{0} {1} è completo, puoi chiudere questa finestra e tornare a Watt Toolkit.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="LoginSuccessTip2" xml:space="preserve">
-    <value>Questa finestra / scheda del browser tenterà di chiudersi automaticamente entro 10 secondi oppure è possibile chiuderla manualmente.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="LongTimeNoJump" xml:space="preserve">
-    <value>Non hai saltato da molto tempo?</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="meta_description" xml:space="preserve">
-    <value>&quot;Watt Toolkit è un toolkit open source, multipiattaforma e multifunzionale per Steam.</value>
-    <comment>Comment=;Author=deepl</comment>
-  </data>
-  <data name="noscript" xml:space="preserve">
-    <value>JavaScript deve essere attivato per navigare in questo sito.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="PleaseCheckSteamCommunity" xml:space="preserve">
-    <value>Verifica di poter accedere correttamente alla Comunità di Steam.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="PleaseWait" xml:space="preserve">
-    <value>Attendere prego...</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ReadFailBySteamAccountId64_" xml:space="preserve">
-    <value>Impossibile leggere SteamAccountId64, valore: {0}, contatta il webmaster.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ReadFailByUnionId_" xml:space="preserve">
-    <value>Impossibile leggere UnionId, valore: {0}, contattare l&apos;amministratore del sito.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="Title_Error" xml:space="preserve">
-    <value>errore!</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="Title_Success_" xml:space="preserve">
-    <value>{0} successo!</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="WebSocketLostTip" xml:space="preserve">
-    <value>La connessione al programma viene persa, fare clic su Riprova o fare di nuovo clic su Accesso rapido all&apos;interno del programma.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="WebSocketPortIsNotUInt16" xml:space="preserve">
-    <value>Il numero di porta deve essere di tipo UInt16, contattare l&apos;amministratore del sito.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="CopyButton" xml:space="preserve">
-    <value>Clicca qui per copiare</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="CopyNoSupport" xml:space="preserve">
-    <value>Questo browser non supporta il click-to-copy negli Appunti</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="CopySuccess" xml:space="preserve">
-    <value>Copiato correttamente negli Appunti</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ManualCopyTip" xml:space="preserve">
-    <value>Si è verificato un errore con il connettore, copiare manualmente quanto segue nel programma e fare clic su Accesso manuale.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ClaimTypes_NameIdentifier_IsNull__" xml:space="preserve">
-    <value>Impossibile leggere NameIdentifier, valore: {0}, canale: {1}, contattare l&apos;amministratore del sito.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="NewUserNickName_" xml:space="preserve">
-    <value>Nuovo {0} utente</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="SteamLoginException" xml:space="preserve">
-    <value>Ci sono troppe richieste di accesso a Steam al momento, aggiorna la pagina e riprova o riprova più tardi.</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
+    <value>绑定</value>
   </data>
   <data name="BindFail_OtherAccountBind" xml:space="preserve">
     <value>L&apos;associazione non è riuscita e questo account è stato associato a un altro account di terze parti</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
+  </data>
+  <data name="BrowserIsSupported1" xml:space="preserve">
+    <value>Spiacenti, stai utilizzando un browser obsoleto. Si consiglia di aggiornare il browser o utilizzarlo</value>
+  </data>
+  <data name="BrowserIsSupported2" xml:space="preserve">
+    <value>e altri browser moderni per migliorare la tua esperienza.</value>
+  </data>
+  <data name="ClaimTypes_NameIdentifier_IsNull__" xml:space="preserve">
+    <value>Impossibile leggere NameIdentifier, valore: {0}, canale: {1}, contattare l&apos;amministratore del sito.</value>
+  </data>
+  <data name="ClickHereTryAgain" xml:space="preserve">
+    <value>Clicca qui per riprovare</value>
+  </data>
+  <data name="CopyButton" xml:space="preserve">
+    <value>Clicca qui per copiare</value>
+  </data>
+  <data name="CopyNoSupport" xml:space="preserve">
+    <value>Questo browser non supporta il click-to-copy negli Appunti</value>
+  </data>
+  <data name="CopySuccess" xml:space="preserve">
+    <value>Copiato correttamente negli Appunti</value>
+  </data>
+  <data name="ErrorFromExternalProvider_" xml:space="preserve">
+    <value>Errori provenienti da provider di accesso di terze parti, {0}, contattare l&apos;amministratore del sito.</value>
+  </data>
+  <data name="ErrorFromUnknownAuthType_" xml:space="preserve">
+    <value>Provider di accesso di terze parti sconosciuto, {0}, contattare l&apos;amministratore del sito.</value>
+  </data>
+  <data name="ErrorFromUnknownChannel_" xml:space="preserve">
+    <value>Canale di accesso di terze parti sconosciuto, {0}, contatta il webmaster.</value>
+  </data>
+  <data name="ErrorLoadingExternalLoginInfo" xml:space="preserve">
+    <value>Si è verificato un errore durante il caricamento delle informazioni di accesso di terze parti, contatta il tuo webmaster.</value>
+  </data>
+  <data name="IsBindFalseUserIsNotNull" xml:space="preserve">
+    <value>L&apos;accesso rapido è disponibile solo se non autorizzato, contatta il tuo webmaster.</value>
+  </data>
+  <data name="IsBindTrueUserIsNull" xml:space="preserve">
+    <value>Se non è stato possibile associare l&apos;account per ottenere l&apos;utente attualmente connesso, contattare il webmaster.</value>
+  </data>
+  <data name="Login2" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="LoginAndRegister" xml:space="preserve">
+    <value>登录 / 注册</value>
+  </data>
+  <data name="LoginSuccessTip1" xml:space="preserve">
+    <value>{0} {1} è completo, puoi chiudere questa finestra e tornare a Watt Toolkit.</value>
+  </data>
+  <data name="LoginSuccessTip2" xml:space="preserve">
+    <value>Questa finestra / scheda del browser tenterà di chiudersi automaticamente entro 10 secondi oppure è possibile chiuderla manualmente.</value>
+  </data>
+  <data name="LongTimeNoJump" xml:space="preserve">
+    <value>Non hai saltato da molto tempo?</value>
+  </data>
+  <data name="ManualCopyTip" xml:space="preserve">
+    <value>Si è verificato un errore con il connettore, copiare manualmente quanto segue nel programma e fare clic su Accesso manuale.</value>
+  </data>
+  <data name="meta_description" xml:space="preserve">
+    <value>&quot;Watt Toolkit è un toolkit open source, multipiattaforma e multifunzionale per Steam.</value>
+  </data>
+  <data name="NewUserNickName_" xml:space="preserve">
+    <value>Nuovo {0} utente</value>
+  </data>
+  <data name="noscript" xml:space="preserve">
+    <value>JavaScript deve essere attivato per navigare in questo sito.</value>
+  </data>
+  <data name="PleaseCheckSteamCommunity" xml:space="preserve">
+    <value>Verifica di poter accedere correttamente alla Comunità di Steam.</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>Attendere prego...</value>
+  </data>
+  <data name="ReadFailBySteamAccountId64_" xml:space="preserve">
+    <value>Impossibile leggere SteamAccountId64, valore: {0}, contatta il webmaster.</value>
+  </data>
+  <data name="ReadFailByUnionId_" xml:space="preserve">
+    <value>Impossibile leggere UnionId, valore: {0}, contattare l&apos;amministratore del sito.</value>
+  </data>
+  <data name="SteamLoginException" xml:space="preserve">
+    <value>Ci sono troppe richieste di accesso a Steam al momento, aggiorna la pagina e riprova o riprova più tardi.</value>
+  </data>
+  <data name="Title_Error" xml:space="preserve">
+    <value>errore!</value>
+  </data>
+  <data name="Title_Success_" xml:space="preserve">
+    <value>{0} successo!</value>
+  </data>
+  <data name="WebSocketLostTip" xml:space="preserve">
+    <value>La connessione al programma viene persa, fare clic su Riprova o fare di nuovo clic su Accesso rapido all&apos;interno del programma.</value>
+  </data>
+  <data name="WebSocketPortIsNotUInt16" xml:space="preserve">
+    <value>Il numero di porta deve essere di tipo UInt16, contattare l&apos;amministratore del sito.</value>
   </data>
 </root>
