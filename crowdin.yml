@@ -1,0 +1,7 @@
+files:
+  - source: /src/BD.WTTS.Primitives.Resources/Strings.resx
+    translation: /src/BD.WTTS.Primitives.Resources/Strings.%two_letters_code%.resx
+  - source: /src/BD.WTTS.MicroServices.Resources/Strings.resx
+    translation: /src/BD.WTTS.MicroServices.Resources/Strings.%two_letters_code%.resx
+  - source: /src/BD.WTTS.MicroServices.Primitives.Resources/Strings.resx
+    translation: /src/BD.WTTS.MicroServices.Primitives.Resources/Strings.%two_letters_code%.resx
