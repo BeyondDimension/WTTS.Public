@@ -201,6 +201,9 @@
   <data name="ReadFailByUnionId_" xml:space="preserve">
     <value>Error al leer UnionId, valor: {0}, póngase en contacto con el administrador del sitio.</value>
   </data>
+  <data name="RequestTooFrequent" xml:space="preserve">
+    <value>请求频繁</value>
+  </data>
   <data name="SteamLoginException" xml:space="preserve">
     <value>Hay demasiadas solicitudes de inicio de sesión de Steam en este momento, actualice la página e inténtelo de nuevo o vuelva a intentarlo más tarde.</value>
   </data>
