@@ -201,6 +201,9 @@
   <data name="ReadFailByUnionId_" xml:space="preserve">
     <value>UnionId の読み取りに失敗しました(値: {0}は、ウェブマスターにお問い合わせください。</value>
   </data>
+  <data name="RequestTooFrequent" xml:space="preserve">
+    <value>请求频繁</value>
+  </data>
   <data name="SteamLoginException" xml:space="preserve">
     <value>現在、Steam ログインのリクエストが多すぎます。</value>
   </data>
