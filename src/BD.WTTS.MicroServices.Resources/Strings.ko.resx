@@ -201,6 +201,9 @@
   <data name="ReadFailByUnionId_" xml:space="preserve">
     <value>UnionId, 값을 읽지 못했습니다: {0} 사이트 관리자에게 문의하십시오.</value>
   </data>
+  <data name="RequestTooFrequent" xml:space="preserve">
+    <value>请求频繁</value>
+  </data>
   <data name="SteamLoginException" xml:space="preserve">
     <value>현재 스팀 로그인 요청이 너무 많으므로 페이지를 새로 고치고 다시 시도하거나 나중에 다시 시도하십시오.</value>
   </data>
