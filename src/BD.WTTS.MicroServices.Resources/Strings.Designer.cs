@@ -313,6 +313,15 @@ namespace BD.WTTS.MicroServices.R {
         }
         
         /// <summary>
+        ///   查找类似 请求频繁 的本地化字符串。
+        /// </summary>
+        public static string RequestTooFrequent {
+            get {
+                return ResourceManager.GetString("RequestTooFrequent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 目前 Steam 登录的请求过多请刷新页面重试或稍后再试。 的本地化字符串。
         /// </summary>
         public static string SteamLoginException {
