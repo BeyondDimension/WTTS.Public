@@ -201,6 +201,9 @@
   <data name="ReadFailByUnionId_" xml:space="preserve">
     <value>讀取 UnionId 失敗，值：{0}，請聯繫網站管理員。</value>
   </data>
+  <data name="RequestTooFrequent" xml:space="preserve">
+    <value>请求频繁</value>
+  </data>
   <data name="SteamLoginException" xml:space="preserve">
     <value>目前 Steam 登錄的請求過多請刷新頁面重試或稍後再試。</value>
   </data>
