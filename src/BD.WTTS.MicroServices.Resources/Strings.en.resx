@@ -201,6 +201,9 @@
   <data name="ReadFailByUnionId_" xml:space="preserve">
     <value>Failed to read UnionId, value: {0}, contact the site administrator.</value>
   </data>
+  <data name="RequestTooFrequent" xml:space="preserve">
+    <value>请求频繁</value>
+  </data>
   <data name="SteamLoginException" xml:space="preserve">
     <value>There are too many steam login requests at the moment, please refresh the page and try again or try again later.</value>
   </data>
