@@ -219,4 +219,7 @@
   <data name="WebSocketPortIsNotUInt16" xml:space="preserve">
     <value>端口号必须为 UInt16 类型，请联系网站管理员。</value>
   </data>
+  <data name="ReadFailByOpenId_" xml:space="preserve">
+    <value>读取 OpenId 失败，值：{0}，请联系网站管理员。</value>
+  </data>
 </root>
