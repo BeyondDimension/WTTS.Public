@@ -59,46 +59,46 @@
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -119,134 +119,104 @@
   </resheader>
   <data name="Bind" xml:space="preserve">
     <value>バインドします</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="BrowserIsSupported1" xml:space="preserve">
-    <value>申し訳ございませんが、古いブラウザを使用しています。 ブラウザをアップグレードするか、使用することをお勧めします</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="BrowserIsSupported2" xml:space="preserve">
-    <value>など、あなたの経験を向上させるために、他の近代的なブラウザ。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ClickHereTryAgain" xml:space="preserve">
-    <value>ここをクリックして再試行してください</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ErrorFromExternalProvider_" xml:space="preserve">
-    <value>サード パーティのサインイン プロバイダーからのエラー{0}、ウェブマスターに問い合わせてください。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ErrorFromUnknownAuthType_" xml:space="preserve">
-    <value>不明なサード パーティのサインイン プロバイダー{0}、ウェブマスターに問い合わせてください。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ErrorFromUnknownChannel_" xml:space="preserve">
-    <value>不明なサード パーティのサインイン チャネル{0}、ウェブマスターにお問い合わせください。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ErrorLoadingExternalLoginInfo" xml:space="preserve">
-    <value>サード パーティのログイン情報の読み込み中にエラーが発生しました。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="IsBindFalseUserIsNotNull" xml:space="preserve">
-    <value>クイック ログインは、承認されていない場合にのみ使用できます。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="IsBindTrueUserIsNull" xml:space="preserve">
-    <value>アカウント バインドが現在ログオンしているユーザーを取得できませんでした場合は、サイト管理者に問い合わせてください。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="Login2" xml:space="preserve">
-    <value>サインインします</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="LoginAndRegister" xml:space="preserve">
-    <value>ログイン/登録</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="LoginSuccessTip1" xml:space="preserve">
-    <value>{0} {1}完了したら、このウィンドウを閉じて Watt Toolkit に戻ることができます。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="LoginSuccessTip2" xml:space="preserve">
-    <value>このブラウザ ウィンドウ/タブは、10 秒以内に自動的に閉じようとするか、手動で閉じることができます。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="LongTimeNoJump" xml:space="preserve">
-    <value>長い間ジャンプしていない?</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="meta_description" xml:space="preserve">
-    <value>&quot;Watt Toolkit &quot;は、オープンソース、クロスプラットフォーム、多機能なSteamツールキットです。</value>
-    <comment>Comment=;Author=deepl</comment>
-  </data>
-  <data name="noscript" xml:space="preserve">
-    <value>このサイトを閲覧するには、JavaScript を有効にする必要があります。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="PleaseCheckSteamCommunity" xml:space="preserve">
-    <value>Steam コミュニティに正常にアクセスできるかどうかを確認します。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="PleaseWait" xml:space="preserve">
-    <value>後で...</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ReadFailBySteamAccountId64_" xml:space="preserve">
-    <value>SteamAccountId64 の読み取りに失敗しました(値: {0}、ウェブマスターにお問い合わせください。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ReadFailByUnionId_" xml:space="preserve">
-    <value>UnionId の読み取りに失敗しました(値: {0}は、ウェブマスターにお問い合わせください。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="Title_Error" xml:space="preserve">
-    <value>間違いだ!</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="Title_Success_" xml:space="preserve">
-    <value>{0}成功!</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="WebSocketLostTip" xml:space="preserve">
-    <value>プログラムへの接続が失われた場合は、[再試行] をクリックするか、[プログラム内] をクリックしてすばやくサインインします。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="WebSocketPortIsNotUInt16" xml:space="preserve">
-    <value>ポート番号は UInt16 タイプである必要があります。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="CopyButton" xml:space="preserve">
-    <value>このレプリケーションをポイントします</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="CopyNoSupport" xml:space="preserve">
-    <value>ブラウザはタップコピークリップボードをサポートしていません</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="CopySuccess" xml:space="preserve">
-    <value>クリップボードに正常にコピーされました</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ManualCopyTip" xml:space="preserve">
-    <value>接続プログラムにエラーがありますので、手動でログインしてクリックしてプログラムに以下を手動でコピーしてください。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="ClaimTypes_NameIdentifier_IsNull__" xml:space="preserve">
-    <value>NameIdentifier の読み取りに失敗しました, 値: {0}, チャネル: {1}, ウェブマスターに連絡してください。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="NewUserNickName_" xml:space="preserve">
-    <value>新規ユーザー{0}</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
-  </data>
-  <data name="SteamLoginException" xml:space="preserve">
-    <value>現在、Steam ログインのリクエストが多すぎます。</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
   </data>
   <data name="BindFail_OtherAccountBind" xml:space="preserve">
     <value>バインドに失敗し、このアカウントは他のサード パーティのアカウントをバインドしました</value>
-    <comment>Comment=;Author=MicrosoftTranslator</comment>
+  </data>
+  <data name="BrowserIsSupported1" xml:space="preserve">
+    <value>申し訳ございませんが、古いブラウザを使用しています。 ブラウザをアップグレードするか、使用することをお勧めします</value>
+  </data>
+  <data name="BrowserIsSupported2" xml:space="preserve">
+    <value>など、あなたの経験を向上させるために、他の近代的なブラウザ。</value>
+  </data>
+  <data name="ClaimTypes_NameIdentifier_IsNull__" xml:space="preserve">
+    <value>NameIdentifier の読み取りに失敗しました, 値: {0}, チャネル: {1}, ウェブマスターに連絡してください。</value>
+  </data>
+  <data name="ClickHereTryAgain" xml:space="preserve">
+    <value>ここをクリックして再試行してください</value>
+  </data>
+  <data name="CopyButton" xml:space="preserve">
+    <value>このレプリケーションをポイントします</value>
+  </data>
+  <data name="CopyNoSupport" xml:space="preserve">
+    <value>ブラウザはタップコピークリップボードをサポートしていません</value>
+  </data>
+  <data name="CopySuccess" xml:space="preserve">
+    <value>クリップボードに正常にコピーされました</value>
+  </data>
+  <data name="ErrorFromExternalProvider_" xml:space="preserve">
+    <value>サード パーティのサインイン プロバイダーからのエラー{0}、ウェブマスターに問い合わせてください。</value>
+  </data>
+  <data name="ErrorFromUnknownAuthType_" xml:space="preserve">
+    <value>不明なサード パーティのサインイン プロバイダー{0}、ウェブマスターに問い合わせてください。</value>
+  </data>
+  <data name="ErrorFromUnknownChannel_" xml:space="preserve">
+    <value>不明なサード パーティのサインイン チャネル{0}、ウェブマスターにお問い合わせください。</value>
+  </data>
+  <data name="ErrorLoadingExternalLoginInfo" xml:space="preserve">
+    <value>サード パーティのログイン情報の読み込み中にエラーが発生しました。</value>
+  </data>
+  <data name="IsBindFalseUserIsNotNull" xml:space="preserve">
+    <value>クイック ログインは、承認されていない場合にのみ使用できます。</value>
+  </data>
+  <data name="IsBindTrueUserIsNull" xml:space="preserve">
+    <value>アカウント バインドが現在ログオンしているユーザーを取得できませんでした場合は、サイト管理者に問い合わせてください。</value>
+  </data>
+  <data name="Login2" xml:space="preserve">
+    <value>サインインします</value>
+  </data>
+  <data name="LoginAndRegister" xml:space="preserve">
+    <value>ログイン/登録</value>
+  </data>
+  <data name="LoginSuccessTip1" xml:space="preserve">
+    <value>{0} {1}完了したら、このウィンドウを閉じて Watt Toolkit に戻ることができます。</value>
+  </data>
+  <data name="LoginSuccessTip2" xml:space="preserve">
+    <value>このブラウザ ウィンドウ/タブは、10 秒以内に自動的に閉じようとするか、手動で閉じることができます。</value>
+  </data>
+  <data name="LongTimeNoJump" xml:space="preserve">
+    <value>長い間ジャンプしていない?</value>
+  </data>
+  <data name="ManualCopyTip" xml:space="preserve">
+    <value>接続プログラムにエラーがありますので、手動でログインしてクリックしてプログラムに以下を手動でコピーしてください。</value>
+  </data>
+  <data name="meta_description" xml:space="preserve">
+    <value>&quot;Watt Toolkit &quot;は、オープンソース、クロスプラットフォーム、多機能なSteamツールキットです。</value>
+  </data>
+  <data name="NewUserNickName_" xml:space="preserve">
+    <value>新規ユーザー{0}</value>
+  </data>
+  <data name="noscript" xml:space="preserve">
+    <value>このサイトを閲覧するには、JavaScript を有効にする必要があります。</value>
+  </data>
+  <data name="PleaseCheckSteamCommunity" xml:space="preserve">
+    <value>Steam コミュニティに正常にアクセスできるかどうかを確認します。</value>
+  </data>
+  <data name="PleaseWait" xml:space="preserve">
+    <value>後で...</value>
+  </data>
+  <data name="ReadFailBySteamAccountId64_" xml:space="preserve">
+    <value>SteamAccountId64 の読み取りに失敗しました(値: {0}、ウェブマスターにお問い合わせください。</value>
+  </data>
+  <data name="ReadFailByUnionId_" xml:space="preserve">
+    <value>UnionId の読み取りに失敗しました(値: {0}は、ウェブマスターにお問い合わせください。</value>
+  </data>
+  <data name="RequestTooFrequent" xml:space="preserve">
+    <value>请求频繁</value>
+  </data>
+  <data name="SteamLoginException" xml:space="preserve">
+    <value>現在、Steam ログインのリクエストが多すぎます。</value>
+  </data>
+  <data name="Title_Error" xml:space="preserve">
+    <value>間違いだ!</value>
+  </data>
+  <data name="Title_Success_" xml:space="preserve">
+    <value>{0}成功!</value>
+  </data>
+  <data name="WebSocketLostTip" xml:space="preserve">
+    <value>プログラムへの接続が失われた場合は、[再試行] をクリックするか、[プログラム内] をクリックしてすばやくサインインします。</value>
+  </data>
+  <data name="WebSocketPortIsNotUInt16" xml:space="preserve">
+    <value>ポート番号は UInt16 タイプである必要があります。</value>
   </data>
 </root>
